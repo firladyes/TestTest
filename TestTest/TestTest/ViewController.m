@@ -18,6 +18,8 @@
     [super viewDidLoad];
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 60, 100, 30)];
     label.backgroundColor = [UIColor redColor];
+    label.text = @"通过sourceTree操作gitHub上的项目";
+    label.textColor = [UIColor whiteColor];
     [self.view addSubview:label];
 }
 
